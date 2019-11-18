@@ -6,12 +6,16 @@ body {
 p {
     margin: 5px 360px;
     display: block;
-    color: green;
+    color: yellowgreen;
     overflow: hidden;
     font-family: monospace;
     animation-name: writeText;
     animation-duration: 1000ms;
     animation-fill-mode: forwards;
+}
+
+span {
+  color: #00d742;
 }
 
 .fakeButtons {
@@ -50,7 +54,7 @@ p {
   }
   
 p button {
-    background-color: #000;
+    /* background-color: #000; */
     border: 1 bold green;
 }  
 
@@ -62,14 +66,14 @@ p button {
     animation-delay: 3000ms;
 }
 
-/* @keyframes writeText {
+@keyframes writeText {
     from {
       width: 0;
     }
     to {
-      width: 200px;
+      width: 600px;
     }
-  } */
+  }
 
   @keyframes fadeIn {
     from {
